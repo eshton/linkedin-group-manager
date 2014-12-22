@@ -1,0 +1,22 @@
+#appDiv {
+	max-width:600px;
+	margin:0px auto;
+	float:center;
+}
+
+.pic {
+	float:left;
+	margin:0px 10px;
+}
+
+.pic img {
+	max-width:600px;
+	max-height:600px;
+}
+
+#activity_console {
+	min-height: 50px;
+	border: 1px solid #ccc;
+	border-radius:10px;
+	padding: 15px;
+}
