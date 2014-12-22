@@ -1,6 +1,10 @@
 package lin.controller
 
+import lin.domain.Person
+
 class PersonController {
 
-    def index() { }
+    def list() {
+		[people: Person.list()]
+	}
 }

@@ -1,6 +1,14 @@
 package lin.controller
 
+import lin.domain.Group
+
 class GroupController {
 
-    def index() { }
+    def list() {
+		[groups: Group.list()]
+	}
+	
+	def show() {
+		
+	}
 }
