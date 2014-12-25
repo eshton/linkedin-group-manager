@@ -19,5 +19,6 @@ class Comment {
 		table 'lkdn_comment'
 		id sqlType:'varchar', generator:'assigned'
 		text sqlType:'text'
+		version false
 	}
 }

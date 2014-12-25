@@ -18,6 +18,7 @@ class Group {
 		table 'lkdn_group'
 		id sqlType:'varchar', generator:'assigned'
 		shortDescription sqlType:'text'
-		description sqlType:'text' 
+		description sqlType:'text'
+		version false 
 	}
 }

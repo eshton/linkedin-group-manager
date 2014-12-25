@@ -18,6 +18,7 @@ class Person {
 		table 'lkdn_person'
 		id sqlType:'varchar', generator:'assigned'
 		headline sqlType:'text'
+		version false
 	}
 	
 	String getFullName() {"${firstName} ${lastName}"}

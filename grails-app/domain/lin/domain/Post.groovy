@@ -24,5 +24,7 @@ class Post {
 		id sqlType:'varchar', generator:'assigned'
 		summary sqlType:'text'
 		title sqlType:'text'
+		type sqlType:'enum'
+		version false
 	}
 }
